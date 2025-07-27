@@ -5,7 +5,7 @@ import os
 
 # ---- PAGE CONFIG ----
 st.set_page_config(page_title="NIR POL Analysis Metrics", layout="wide", initial_sidebar_state="expanded")
-DATA_PATH = "./nir_comparative.csv"
+DATA_PATH = "nir_comparative.csv"
 
 # ---- LOAD DATA ----
 @st.cache_data(ttl=3600)
